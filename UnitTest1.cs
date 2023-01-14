@@ -16,8 +16,7 @@ namespace TestProject2
         public static void ClassInitialize(TestContext testContext)
         {
             _url = testContext.Properties["webAppUrl"].ToString();
-            _numberOfClicks = Int32.Parse(testContext.Properties["numberOfClicks"].ToString());
-                    
+            _numberOfClicks = Int32.Parse(testContext.Properties["numberOfClicks"].ToString());                 
         }
         [TestInitialize]
         public void Setup()
