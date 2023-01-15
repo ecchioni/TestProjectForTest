@@ -10,7 +10,7 @@ namespace TestProject2
         public IWebDriver? driver;
         public TestContext? testContext { get; set; }
         private static string? _baseUrl;
-        public static int _numberOfClicks;     
+        private static int _numberOfClicks;     
 
         [ClassInitialize]
         public static void ClassInitialize(TestContext testContext)
