@@ -11,8 +11,7 @@ namespace TestProject2.Pages
 {
     public class BasePage
     {
-        public IWebDriver driver;
-        public Logger logger;
+        public IWebDriver driver;       
         private WebDriverWait wait;
 
         public BasePage(IWebDriver driver)
