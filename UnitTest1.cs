@@ -5,7 +5,7 @@ using TestProject2.Pages;
 namespace TestProject2
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTestClass
     {
         public IWebDriver? driver;
         public TestContext? testContext { get; set; }
@@ -30,7 +30,7 @@ namespace TestProject2
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void TestTheNumberOfElementsGeneratedOnThePageIsCorrect()
         {
             Page testPage = new Page(driver);
             string pageToOpen = _baseUrl + testPage.url;
