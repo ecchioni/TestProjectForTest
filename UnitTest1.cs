@@ -9,13 +9,13 @@ namespace TestProject2
     {
         public IWebDriver? driver;
         public TestContext? testContext { get; set; }
-        private static string? _url;
+        private static string? _baseUrl;
         public static int _numberOfClicks;     
 
         [ClassInitialize]
         public static void ClassInitialize(TestContext testContext)
         {
-            _url = testContext.Properties["webAppUrl"].ToString();
+            _baseUrl = testContext.Properties["webAppUrl"].ToString();
             _numberOfClicks = Int32.Parse(testContext.Properties["numberOfClicks"].ToString());                 
         }
         [TestInitialize]
@@ -32,9 +32,10 @@ namespace TestProject2
         [TestMethod]
         public void TestMethod1()
         {
-            Page testPage = new Page(driver);                    
+            Page testPage = new Page(driver);
+            string pageToOpen = _baseUrl + testPage.url;
            
-            testPage.openFromURL(_url);
+            testPage.openFromURL(pageToOpen);
             for (int i = 0; i < _numberOfClicks; i++)
             {
                 testPage.ClickElement(testPage.GetElement(testPage.addButton));

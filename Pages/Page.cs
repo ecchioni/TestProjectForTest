@@ -14,9 +14,10 @@ namespace TestProject2.Pages
 
         public String deleteButtonClass { get; } = @".added-manually";
 
-        public String url { get; set; }
-        
-        
+        public String url { get; } = @"add_remove_elements/";
+
+
+
 
     }
 }
