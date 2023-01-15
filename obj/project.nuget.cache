@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4TgyVYFmUF2yLJwWyJH557VSUTY6dSsf+BuHlrb8mGkuAE9z2wn8Y9Q8EZdoCF1iiqYiCDJe/85xC7KOc8Vq6g==",
+  "dgSpecHash": "D8xwK/Tff0XcLDagSHi1bimkihIeZfXE0rQI91HILGxF8VjtnIo2yl+t/Qhev5qP7QQO5dUbNmPttiCBT3Qcbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mikhail\\Source\\Repos\\TestProject2\\TestProject2.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,6 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\selenium.support\\4.7.0\\selenium.support.4.7.0.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\selenium.webdriver\\4.7.0\\selenium.webdriver.4.7.0.nupkg.sha512",
-    "C:\\Users\\Mikhail\\.nuget\\packages\\selenium.webdriver.chromedriver\\108.0.5359.7100\\selenium.webdriver.chromedriver.108.0.5359.7100.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

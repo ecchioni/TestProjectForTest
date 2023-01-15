@@ -12,7 +12,6 @@
           "MSTest.TestFramework": "2.2.8",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "Selenium.Support": "4.7.0",
-          "Selenium.WebDriver.ChromeDriver": "108.0.5359.7100",
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
@@ -446,7 +445,6 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/108.0.5359.7100": {},
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1256,13 +1254,6 @@
       "sha512": "sha512-WNGX6JxjBS5f79PQnrB4oO+5U83f8tZfND+rqX2YJVHPdv3xS/zZwljWqGu5UDhluo3kEuuT+DuGEZW8/+9fOA==",
       "path": "selenium.webdriver/4.7.0",
       "hashPath": "selenium.webdriver.4.7.0.nupkg.sha512"
-    },
-    "Selenium.WebDriver.ChromeDriver/108.0.5359.7100": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wrDUVsoQHQct9BodCFgRi1LMKGhwv27ANuS8l7ZXcOn/VS2NqcxxBhSAkcucx4CoZgidny0+ifnFS95nTmnVvg==",
-      "path": "selenium.webdriver.chromedriver/108.0.5359.7100",
-      "hashPath": "selenium.webdriver.chromedriver.108.0.5359.7100.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

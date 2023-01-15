@@ -15,8 +15,10 @@ namespace TestProject2
         [ClassInitialize]
         public static void ClassInitialize(TestContext testContext)
         {
-            _baseUrl = testContext.Properties["webAppUrl"].ToString();
-            _numberOfClicks = Int32.Parse(testContext.Properties["numberOfClicks"].ToString());                 
+            // _baseUrl = testContext.Properties["webAppUrl"].ToString();
+            // _numberOfClicks = Int32.Parse(testContext.Properties["numberOfClicks"].ToString());
+            _baseUrl = @"https://the-internet.herokuapp.com/";
+            _numberOfClicks = 6;
         }
         [TestInitialize]
         public void Setup()
