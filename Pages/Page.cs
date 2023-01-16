@@ -10,11 +10,11 @@ namespace TestProject2.Pages
     {
         public Page(OpenQA.Selenium.IWebDriver driver) : base(driver)
         { }
-        public String addButton {get;}=@"[onclick=""addElement()""]";
+        public String AddButton {get;}=@"[onclick=""addElement()""]";
 
-        public String deleteButtonClass { get; } = @".added-manually";
+        public String DeleteButtonClass { get; } = @".added-manually";
 
-        public String url { get; } = @"add_remove_elements/";
+        public String Uri { get; } = @"add_remove_elements/";
 
 
 

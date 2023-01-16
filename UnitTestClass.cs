@@ -7,7 +7,7 @@ namespace TestProject2
     [TestClass]
     public class UnitTestClass
     {
-        public IWebDriver? driver;
+        private IWebDriver? driver;
         public TestContext? testContext { get; set; }
         private static string? _baseUrl;
         private static int _numberOfClicks;     
@@ -33,14 +33,14 @@ namespace TestProject2
         public void TestTheNumberOfElementsGeneratedOnThePageIsCorrect()
         {
             Page testPage = new Page(driver);
-            string pageToOpen = _baseUrl + testPage.url;
+            string pageToOpen = _baseUrl + testPage.Uri;
            
             testPage.openFromURL(pageToOpen);
             for (int i = 0; i < _numberOfClicks; i++)
             {
-                testPage.ClickElement(testPage.GetElement(testPage.addButton));
+                testPage.ClickElement(testPage.GetElement(testPage.AddButton));
             }
-            IList<IWebElement> elements = testPage.GetElements(testPage.deleteButtonClass);
+            IList<IWebElement> elements = testPage.GetElements(testPage.DeleteButtonClass);
             Assert.IsTrue(elements.Count == _numberOfClicks);
 
         }
