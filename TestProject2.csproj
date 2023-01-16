@@ -16,4 +16,10 @@
     <PackageReference Include="Selenium.Support" Version="4.7.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="test.runsettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

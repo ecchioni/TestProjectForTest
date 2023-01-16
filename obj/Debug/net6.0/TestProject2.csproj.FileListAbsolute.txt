@@ -98,3 +98,4 @@ C:\Users\Mikhail\Source\Repos\TestProject2\obj\Debug\net6.0\refint\TestProject2.
 C:\Users\Mikhail\Source\Repos\TestProject2\obj\Debug\net6.0\TestProject2.pdb
 C:\Users\Mikhail\Source\Repos\TestProject2\obj\Debug\net6.0\TestProject2.genruntimeconfig.cache
 C:\Users\Mikhail\Source\Repos\TestProject2\obj\Debug\net6.0\ref\TestProject2.dll
+C:\Users\Mikhail\Source\Repos\TestProject2\bin\Debug\net6.0\test.runsettings
